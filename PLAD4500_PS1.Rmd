@@ -79,6 +79,15 @@ ggplot(mtcars,
     c("blue", "red")) + 
   ggtitle("Speed vs. Mileage")
 ```
+
+ggplot(mtcars, aes(x=mpg, y=qsec,color=factor(am))) + 
+  geom_point() +
+  geom_smooth(method="loess", se=FALSE) +
+  xlab("Miles per gallon") + 
+  ylab("1/4 mile time") +
+  guides(color=guide_legend(title="Transmission")) +
+  scale_color_manual(labels = c("Automatic", "Manual"), values = c("blue","red")) + 
+  ggtitle("Speed vs. Mileage")
   
 ##Part 2 
 ###Question 1 
