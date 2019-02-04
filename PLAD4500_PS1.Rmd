@@ -56,7 +56,7 @@ https://cran.r-project.org/web/packages/Hmisc/index.html
   Found a package called 'gutenbergr' by googling for packages that can download sherlock holmes. It can download public domain works, information about the works and authors, and 'pairings' of work in the Library of Congress. https://cran.r-project.org/web/packages/gutenbergr/vignettes/intro.html
   
   5. scrape the text off of webpages 
-  I found the package 'rvest' through google, which brought me to a beginner's guide for Web Scraping. The webpage suggested using rvest to easily download and then manipulate HTML and XML. 
+  I found the package 'rvest' through google, which brought me to a beginner's guide for Web Scraping. The webpage suggested using rvest to easily download and then manipulate HTML and XML.
 https://cran.r-project.org/web/packages/rvest/index.html
 
   6. create an animated movie to show how a scatter plot changes over time
@@ -66,29 +66,17 @@ https://cran.r-project.org/web/packages/rvest/index.html
 cleaning up a code chunk: 
 
 ```{r firstcode, fig.width=6, fig.height=4, fig.align="center"}
-ggplot(mtcars, 
-       aes(x=mpg, y=qsec,color=
-             factor(am))) + geom_point() +
-  geom_smooth(method="loess", se=FALSE) +
-  xlab("Miles per gallon") + 
-  ylab("1/4 mile time") +
-  guides(color=guide_legend(title=
-  "Transmission")) +
-  scale_color_manual(labels =
-  c("Automatic", "Manual"), values =
-    c("blue", "red")) + 
-  ggtitle("Speed vs. Mileage")
-```
-
 ggplot(mtcars, aes(x=mpg, y=qsec,color=factor(am))) + 
   geom_point() +
   geom_smooth(method="loess", se=FALSE) +
   xlab("Miles per gallon") + 
   ylab("1/4 mile time") +
   guides(color=guide_legend(title="Transmission")) +
-  scale_color_manual(labels = c("Automatic", "Manual"), values = c("blue","red")) + 
+  scale_color_manual(labels = 
+  c("Automatic", "Manual"), values = c("blue","red")) + 
   ggtitle("Speed vs. Mileage")
-  
+```
+
 ##Part 2 
 ###Question 1 
 
