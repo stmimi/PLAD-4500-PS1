@@ -41,7 +41,10 @@ finding R packages:
   1. downloading the text posts of twitter
     Found the package 'twitteR' by googling for packages that can get text posts from twitter. It implements the entire Twitter API in R, and lets you do things like look at DM's, friends, posts, search, and more. https://cran.r-project.org/web/packages/twitteR/twitteR.pdf
     
-  2. load an SPSS data file 
+  2. load an SPSS data file
+I googled how to "load an SPSS data file" and found the website statmethods.net which recommended using the package 'Hmisc' to load an SPSS data file. The package can also provide functions for data analysis, advanced table making, conversion of R objects to LaTeX and html code and more. 
+https://cran.r-project.org/web/packages/Hmisc/index.html
+
   3. Annotate street maps 
   4. download the text of *The adventures of Sherlock Holms*
   5. scrape the text off of webpages 
