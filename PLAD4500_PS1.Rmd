@@ -73,7 +73,7 @@ ggplot(mtcars, aes(x=mpg, y=qsec,color=factor(am))) +
   ylab("1/4 mile time") +
   guides(color=guide_legend(title="Transmission")) +
   scale_color_manual(labels = 
-  c("Automatic", "Manual"), values = c("blue","red")) + 
+    c("Automatic", "Manual"), values = c("blue","red")) + 
   ggtitle("Speed vs. Mileage")
 ```
 
@@ -81,7 +81,7 @@ ggplot(mtcars, aes(x=mpg, y=qsec,color=factor(am))) +
 ###Question 1 
 
 ```{r objects}
-uvawins <- 19 
+uvawins <- 20
 
 #a 
 sqrt(uvawins)
