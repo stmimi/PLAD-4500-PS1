@@ -22,10 +22,14 @@ library(dplyr)
 
 ## Part 1 
 ##How to use git
+## to add your code to the 'cloud'
 ## git add .
 ## git commit -m"1"
 ## git push origin master
 
+## to download the code from the cloud
+## git stash
+## git pull origin master
 ###Question 1 
 steps to changing R studio to Black:
 
@@ -49,6 +53,7 @@ https://cran.r-project.org/web/packages/Hmisc/index.html
    found the package `ggmaps` by googling "annotating street maps r package". The package is a collection of functions for vizualizing spatial data from online sources, and includes functions for geolocation and routing https://cran.r-project.org/web/packages/ggmap/ggmap.pdf
    
   4. download the text of *The adventures of Sherlock Holms*
+  Found a package called 'gutenbergr' by googling for packages that can download sherlock holmes. It can download public domain works, information about the works and authors, and 'pairings' of work in the Library of Congress. https://cran.r-project.org/web/packages/gutenbergr/vignettes/intro.html
   5. scrape the text off of webpages 
   6. create an animated movie to show how a scatter plot changes over time
   
