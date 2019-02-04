@@ -56,6 +56,7 @@ https://cran.r-project.org/web/packages/Hmisc/index.html
   Found a package called 'gutenbergr' by googling for packages that can download sherlock holmes. It can download public domain works, information about the works and authors, and 'pairings' of work in the Library of Congress. https://cran.r-project.org/web/packages/gutenbergr/vignettes/intro.html
   5. scrape the text off of webpages 
   6. create an animated movie to show how a scatter plot changes over time
+   found the package `gganimate` by googling "r package for creating an animated movie to show how a scatter plot changes over time". This package wraps aroung ggplot to create animated ggplots. https://www.rdocumentation.org/packages/gganimate/versions/0.1.1
   
 ###Question 3 
 cleaning up a code chunk: 
