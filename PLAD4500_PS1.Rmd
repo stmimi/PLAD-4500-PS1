@@ -1,0 +1,164 @@
+---
+title: "Problem Set 1"
+author: "Sarah Tmimi, Lesley Thomas,  Andrew Walsh"
+date: "2/2/2019"
+output: 
+  html_document:
+    toc: TRUE
+    toc_depth: 4
+    toc_float: true
+    toc_collapsed: true
+    theme: journal
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r loadpackages, warning=FALSE, messages=FALSE, error=FALSE} 
+library(ggplot2)
+library(dplyr)
+```
+
+## Part 1 
+
+###Question 1 
+steps to changing R studio to Black:
+
+  1. Tools 
+  2. Global Options 
+  3. Appearance 
+  4. Editor Theme 
+  5. Chaos (or any of the first 3 themes)
+  
+###Question 2
+finding R packages: 
+  
+  1. downloading the text posts of twitter
+  2. load an SPSS data file 
+  3. Annotate street maps 
+  4. download the text of *The adventures of Sherlock Holms*
+  5. scrape the text off of webpages 
+  6. create an animated movie to show how a scatter plot changes over time
+  
+###Question 3 
+cleaning up a code chunk: 
+
+```{r firstcode, fig.width=6, fig.height=4, fig.align="center"}
+ggplot(mtcars, 
+       aes(x=mpg, y=qsec,color=
+             factor(am))) + geom_point() +
+  geom_smooth(method="loess", se=FALSE) +
+  xlab("Miles per gallon") + 
+  ylab("1/4 mile time") +
+  guides(color=guide_legend(title=
+  "Transmission")) +
+  scale_color_manual(labels =
+  c("Automatic", "Manual"), values =
+    c("blue", "red")) + 
+  ggtitle("Speed vs. Mileage")
+```
+  
+##Part 2 
+###Question 1 
+
+```{r objects}
+uvawins <- 19 
+
+#a 
+sqrt(uvawins)
+
+#b
+uvawins^3 
+
+#c
+log(uvawins)
+
+#d
+exp(uvawins)
+
+#e
+log10((4*(uvawins-5))/9)
+```
+###Question 2 
+
+```{r temps}
+temps <- c(45, 51, 52, 39, 40, 45, 38)
+
+#a
+temps[4]
+
+#b
+((temps - 32)*5)/9
+```
+
+###Question 3 
+
+```{r weekdays}
+days <- c("sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday")
+
+days_temps <- data.frame(days, temps)
+
+days_temps
+
+```
+
+###Question 4 
+```{r imdbdata}
+setwd("~/Desktop/PLAD 4500")
+imdb <- read.csv("imdb.csv")
+```
+
+###Question 5 
+```{r imdbvars}
+names(imdb)
+```
+
+###Question 6 
+```{r imdbmean}
+summary(imdb$imdb_score)
+
+```
+the mean imdb score is 6.442
+
+###Question 7????
+
+
+###Question 8 
+```{r imdbclass}
+
+str(imdb$movie_title)
+
+```
+`movie_titles` are a factor class. This is not a good choice for this variable because factors are for categories, but movie titles are words, so it should be a character class. 
+
+###Question 9
+
+```{r imdbcoerce}
+
+ ### not sure how to reference a variable??
+imdb <- as.character("movie_titles")
+```
+
+##Part 3: Getting Help 
+
+###Question 1
+
+to change the confidence interval displayed by the function `geom_smooth()` from it's default of a 95% confidence interval to an 80% confidence interval you would type `level=.80` in parentheses after the command. 
+
+###Question 2 ??
+why is <- better than = ???
+
+###Question 3 ??
+
+###Question 4 ??
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-aqsOl_3AMQ" allowfullscreen></iframe>
+
+###Question 5 
+
+  1. you're clearly asking a homework question and people don't like when you do that 
+  2. you haven't included any information about what you've already tried to solve the problem yourself
+  3. didn't include the version of R you're using/ what operating system you have
+
