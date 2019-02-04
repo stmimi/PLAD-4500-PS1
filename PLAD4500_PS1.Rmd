@@ -21,7 +21,11 @@ library(dplyr)
 ```
 
 ## Part 1 
-## Hello this is Andrew
+##How to use git
+## git add .
+## git commit -m"1"
+## git push origin master
+
 ###Question 1 
 steps to changing R studio to Black:
 
