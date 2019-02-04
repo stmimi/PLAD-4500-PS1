@@ -136,12 +136,11 @@ names(imdb)
 ###Question 6 
 ```{r imdbmean}
 summary(imdb$imdb_score)
-
 ```
-the mean imdb score is 6.442
+The mean imdb score is 6.442
 
 ###Question 7????
-
+The two films with the highest IMDB scores are Towering Inferno (9.5) and The Shawshank Redemption (9.3). We shouldn't trust these scores because the sample size of each is vastly different. The Towering Inferno only has 10 reviews while Shawshank Redemption has 1689764. The movie with the lowest score is Justin Beiber: Never Say Never. 
 
 ###Question 8 
 ```{r imdbclass}
