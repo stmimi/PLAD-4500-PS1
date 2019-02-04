@@ -113,7 +113,7 @@ temps[4]
 ###Question 3 
 
 ```{r weekdays}
-days <- c("sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday")
+days <- c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
 
 days_temps <- data.frame(days, temps)
 
@@ -125,6 +125,7 @@ days_temps
 ```{r imdbdata}
 ##setwd("~/Desktop/PLAD-4500-PS1")
 imdb <- read.csv("imdb.csv")
+dim(imdb)
 ```
 
 ###Question 5 
