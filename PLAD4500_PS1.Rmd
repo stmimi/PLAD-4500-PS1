@@ -39,6 +39,8 @@ steps to changing R studio to Black:
 finding R packages: 
   
   1. downloading the text posts of twitter
+    Found the package 'twitteR' by googling for packages that can get text posts from twitter. It implements the entire Twitter API in R, and lets you do things like look at DM's, friends, posts, search, and more. https://cran.r-project.org/web/packages/twitteR/twitteR.pdf
+    
   2. load an SPSS data file 
   3. Annotate street maps 
   4. download the text of *The adventures of Sherlock Holms*
@@ -109,7 +111,7 @@ days_temps
 
 ###Question 4 
 ```{r imdbdata}
-setwd("~/Desktop/PLAD 4500")
+##setwd("~/Desktop/PLAD-4500-PS1")
 imdb <- read.csv("imdb.csv")
 ```
 
