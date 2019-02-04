@@ -45,7 +45,9 @@ finding R packages:
 I googled how to "load an SPSS data file" and found the website statmethods.net which recommended using the package 'Hmisc' to load an SPSS data file. The package can also provide functions for data analysis, advanced table making, conversion of R objects to LaTeX and html code and more. 
 https://cran.r-project.org/web/packages/Hmisc/index.html
 
-  3. Annotate street maps 
+  3. Annotate street maps
+   found the package `ggmaps` by googling "annotating street maps r package". The package is a collection of functions for vizualizing spatial data from online sources, and includes functions for geolocation and routing https://cran.r-project.org/web/packages/ggmap/ggmap.pdf
+   
   4. download the text of *The adventures of Sherlock Holms*
   5. scrape the text off of webpages 
   6. create an animated movie to show how a scatter plot changes over time
