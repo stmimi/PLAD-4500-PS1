@@ -177,6 +177,7 @@ filter(flights, month == 1, day == 1)
 ```{r}
 knitr::include_url("https://www.youtube.com/embed/fhWwBs-W2wk")
 ```
+Googled how to embed YouTube videos into RMarkdown files, and tried a few of the top results. Then, we realized we needed to use the 'youtube.com/embed' form of the url. We stuck with the knitr embed because it's short and clean.
 ###Question 5 
 
   1. you're clearly asking a homework question and people don't like when you do that 
