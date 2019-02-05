@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(ggplot2)
 library(dplyr)
 ```
-##Part 1
+##Part 1 Managing R Studio, Packages, and R Code
 ###Question 1 
 Steps to changing R studio to Black:
 
@@ -77,7 +77,7 @@ ggplot(mtcars, aes(x=mpg, y=qsec,color=factor(am))) +
   
 ```
 
-##Part 2 
+##Part 2 Managing Objects
 ###Question 1 
 
 ```{r objects}
