@@ -163,8 +163,9 @@ imdb$movie_title <- as.character(imdb$movie_title)
 
 The argument `se` lets you chose whether or not to display the confidence intervals. To change the confidence interval displayed by the function `geom_smooth()` from it's default of a 95% confidence interval to an 80% confidence interval you would type `level=.80` in parentheses after the command. 
 
-###Question 2 ??
-why is <- better than = ???
+###Question 2
+https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-in-r
+The writer reccommends using spaces around `<-` because it removes ambiguity. For example, `x<-1` could mean `x <- 1` or `x < -1`.
 
 ###Question 3 ??
 
