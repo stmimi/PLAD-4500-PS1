@@ -21,7 +21,7 @@ library(dplyr)
 ```
 ##Part 1
 ###Question 1 
-steps to changing R studio to Black:
+Steps to changing R studio to Black:
 
   1. Tools 
   2. Global Options 
@@ -30,7 +30,7 @@ steps to changing R studio to Black:
   5. Chaos (or any of the first 3 themes)
   
 ###Question 2
-finding R packages: 
+Finding R packages: 
   
   1. Downloading the text posts of twitter:
 
