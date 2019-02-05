@@ -155,7 +155,7 @@ str(imdb$movie_title)
 ```{r imdbcoerce}
 
  ### not sure how to reference a variable??
-imdb <- as.character("movie_titles")
+imdb <- as.character("movie_title")
 ```
 
 ##Part 3: Getting Help 
