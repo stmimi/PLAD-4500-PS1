@@ -169,11 +169,14 @@ The writer reccommends using spaces around `<-` because it removes ambiguity. Fo
 
 ###Question 3 ??
 
+library(nycflights13)
+filter(flights, month == 1, day == 1)
+
+
 ###Question 4 ??
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-aqsOl_3AMQ" allowfullscreen></iframe>
-
+```{r}
+knitr::include_url("https://www.youtube.com/embed/fhWwBs-W2wk")
+```
 ###Question 5 
 
   1. you're clearly asking a homework question and people don't like when you do that 
