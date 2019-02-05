@@ -20,16 +20,6 @@ library(ggplot2)
 library(dplyr)
 ```
 
-## Part 1 
-##How to use git
-## to add your code to the 'cloud'
-## git add .
-## git commit -m"1"
-## git push origin master
-
-## to download the code from the cloud
-## git stash
-## git pull origin master
 ###Question 1 
 steps to changing R studio to Black:
 
@@ -165,22 +155,25 @@ The argument `se` lets you chose whether or not to display the confidence interv
 
 ###Question 2
 https://stackoverflow.com/questions/1741820/what-are-the-differences-between-and-in-r
+
 The writer reccommends using spaces around `<-` because it removes ambiguity. For example, `x<-1` could mean `x <- 1` or `x < -1`.
 
-###Question 3 ??
+###Question 3 
 
+```{r filterexample}
 library(nycflights13)
 filter(flights, month == 1, day == 1)
+```
 
-
-###Question 4 ??
+###Question 4 
 ```{r}
 knitr::include_url("https://www.youtube.com/embed/fhWwBs-W2wk")
 ```
 Googled how to embed YouTube videos into RMarkdown files, and tried a few of the top results. Then, we realized we needed to use the 'youtube.com/embed' form of the url. We stuck with the knitr embed because it's short and clean.
+
 ###Question 5 
 
-  1. you're clearly asking a homework question and people don't like when you do that 
-  2. you haven't included any information about what you've already tried to solve the problem yourself
-  3. didn't include the version of R you're using/ what operating system you have
+  1. You're clearly asking a homework question and people don't like when you do that 
+  2. You haven't included any information about what you've already tried to solve the problem yourself and haven't explained what error message you're actualy getting. 
+  3. You didn't include the version of R you're using/ what operating system you have. 
 
