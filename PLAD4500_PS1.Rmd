@@ -75,6 +75,7 @@ ggplot(mtcars, aes(x=mpg, y=qsec,color=factor(am))) +
   scale_color_manual(labels = 
     c("Automatic", "Manual"), values = c("blue","red")) + 
   ggtitle("Speed vs. Mileage")
+  
 ```
 
 ##Part 2 
@@ -160,7 +161,7 @@ imdb$movie_title <- as.character(imdb$movie_title)
 
 ###Question 1
 
-to change the confidence interval displayed by the function `geom_smooth()` from it's default of a 95% confidence interval to an 80% confidence interval you would type `level=.80` in parentheses after the command. 
+The argument `se` lets you chose whether or not to display the confidence intervals. To change the confidence interval displayed by the function `geom_smooth()` from it's default of a 95% confidence interval to an 80% confidence interval you would type `level=.80` in parentheses after the command. 
 
 ###Question 2 ??
 why is <- better than = ???
